@@ -10,7 +10,7 @@ import StorageService from "../services/storageService";
 
 interface IState {
     bookings: Array<any>,
-    [key: string]: any; // or the type of your input
+    [key: string]: any; 
 }
 
 class BookingsList extends React.Component<any,IState>{

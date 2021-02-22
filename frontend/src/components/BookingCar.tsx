@@ -50,13 +50,7 @@ state = {
       { name: "numberOfPassengers", placeHolder: "Number of passengers" },
       { name: "luggageCount", placeHolder: "Luggage Count" },
     ];
-    // {
-    //   "pickupLocation": "sagarpur",
-    //     "dropOffLocation": "nawadad",
-    //     "numberOfPassengers": 4,
-    //     "luggageCount": 10,
-    //     "carType": "suv"
-    // }
+   
     inputData.forEach((data) => {
       inputs.push(
         <Input

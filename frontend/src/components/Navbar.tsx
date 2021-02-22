@@ -6,7 +6,7 @@ import { toast } from "react-toastify";
 import { withRouter } from "react-router-dom";
 
 interface IState {
-    [key: string]: any; // or the type of your input
+    [key: string]: any;
 }
 
 class Navbar extends Component<any, IState> {

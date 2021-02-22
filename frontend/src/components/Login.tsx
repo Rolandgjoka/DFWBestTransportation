@@ -9,7 +9,7 @@ import { toast } from "react-toastify";
 import StorageService from "../services/storageService";
 
 interface IState {
-    [key: string]: any; // or the type of your input
+    [key: string]: any; 
     email: string,
     password: string
 }

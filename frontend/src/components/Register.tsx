@@ -8,7 +8,7 @@ import AuthBackendApiService from "../services/authBackendApi.service";
 import { toast } from "react-toastify";
 
 interface IState {
-    [key: string]: any; // or the type of your input
+    [key: string]: any; 
     email: string,
     password: string,
     name: string
